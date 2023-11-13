@@ -1,0 +1,96 @@
+body {
+    background-color: #262626;
+    color: #ddd;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#reset-game {
+    margin: 20px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #939393;
+    cursor: pointer;
+}
+
+#grid {
+    width: 500px;
+    height: 500px;
+    border: 10px solid gray;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+#grid div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid whitesmoke;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background: darkgray;
+}
+
+.c1 {
+    color: blue;
+}
+
+.c2 {
+    color: green;
+}
+
+.c3 {
+    color: red;
+}
+
+.c4 {
+    color: darkblue;
+}
+
+.c5 {
+    color: brown;
+}
+
+.c6 {
+    color: cyan;
+}
+
+.c7 {
+    color: black;
+}
+
+.c8 {
+    color: gray;
+}
+
+.flag {
+    background: url("./img/flag.png") center center no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.bomb {
+    background: url("./img/bomb.png") center center no-repeat;
+    background-size: contain;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+.tile-clicked {
+    background: darkgray;
+}
