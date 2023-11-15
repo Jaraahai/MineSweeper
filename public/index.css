@@ -77,14 +77,14 @@ body {
 }
 
 .flag {
-    background: url("./img/flag.png") center center no-repeat;
+    background: url("flag.PNG") center center no-repeat;
     background-size: contain;
     width: 20px;
     height: 20px;
 }
 
 .bomb {
-    background: url("./img/bomb.png") center center no-repeat;
+    background: url("bomb.PNG") center center no-repeat;
     background-size: contain;
     background-color: red;
     width: 20px;
